@@ -1,0 +1,62 @@
+<!DOCTYPYE html>
+
+<!--
+<style>
+    body {
+        background-color: gray;
+    }
+</style>
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> rock-paper-scissor</title>
+
+    <!-- use style.css instead of using style in html-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1> Rock Paper Scissor</h1>
+</header>
+
+<p class="centerText">
+hello this is rock paper scissor <br>
+its time to dddddduel
+</p>
+
+<div id="col-1">
+    <h1 class ="centerText">This is you</h1>
+    <a class= "center_logo" href="#"><img id="playerImg" src="images/questionMark.jpg" alt="a question mark." class="center_image"></a>
+  </div>
+  <div id="col-2">
+    <h1 class ="centerText"></h1class>This is computer</h1>
+    <a class= "center_logo" href="#"><img id="computerImg" src="images/questionMark.jpg" alt="a question mark." class="center_image"></a>
+  </div>
+
+  <div class="center_button"> 
+    <button id = "rockButton" onclick="clickedRockButton()" type="button">Rock! </button> 
+    <button id = "paperButton" onclick="clickedPaperButton()" type="button">Paper</button> 
+    <button id = "scissorButton" onclick="clickedScissorButton()" type="button">Scissor</button> 
+  </div>
+
+  <p id="testJS"></p>
+
+  <script>
+    let a = 0;
+  </script>
+  
+  <div class = "centerText">
+      Score <br>
+      Player -  Computer
+      <p id ="scoreboard">
+      </p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
